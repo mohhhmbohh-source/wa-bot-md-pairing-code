@@ -29,12 +29,8 @@ const {
   makeCacheableSignalKeyStore,
   jidDecode,
   downloadContentFromMessage,
-  DisconnectReason
-} = require('@whiskeysockets/baileys');const { makeInMemoryStore } = require('@whiskeysockets/baileys')
-const {
-  Boom
-} = require('@hapi/boom');
-const pino = require('pino');
+  DisconnectReason;
+const { makeInMemoryStore } = require('./lib/store.js');
 const readLine = require('readline');
 const qrCodeTerminal = require('qrcode-terminal');
 const chalk = require('chalk');
