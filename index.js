@@ -29,7 +29,7 @@ const {
   makeCacheableSignalKeyStore,
   jidDecode,
   downloadContentFromMessage,
-  DisconnectReason;
+  DisconnectReason} = require('@whiskeysockets/baileys');
 const { makeInMemoryStore } = require('./lib/store.js');
 const readLine = require('readline');
 const qrCodeTerminal = require('qrcode-terminal');
