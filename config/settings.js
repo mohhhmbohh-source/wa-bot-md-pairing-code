@@ -50,8 +50,8 @@ module.exports = {
     profile_status: 'Bot aktif hingga kiamat or 24/7'
   },
   owner: {
-    name: ["Your Name"],
-    number: ["628xxx"]
+    name: ["Jokowi"],
+    number: ["6283899627516"]
   },
   daily_limit: {
     free: 25,
@@ -60,7 +60,7 @@ module.exports = {
   watermark: {
     sticker: {
       package_name: 'Created by',
-      author_name: 'Your Name'
+      author_name: 'jokowi'
     }
   },
   react: {
