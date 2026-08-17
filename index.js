@@ -24,13 +24,13 @@
 const {
   makeWASocket,
   useMultiFileAuthState,
-  makeInMemoryStore,
+
   PHONENUMBER_MCC,
   makeCacheableSignalKeyStore,
   jidDecode,
   downloadContentFromMessage,
   DisconnectReason
-} = require('@whiskeysockets/baileys');
+} = require('@whiskeysockets/baileys');const { makeInMemoryStore } = require('@whiskeysockets/baileys')
 const {
   Boom
 } = require('@hapi/boom');
